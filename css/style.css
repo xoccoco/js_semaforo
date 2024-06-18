@@ -1,0 +1,57 @@
+
+
+.semaforo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    width: 700px;
+    height: 250px;
+
+    padding: 25px;
+
+    border-radius: 20px;
+    
+}
+
+.luz_red {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+.luz_yellow {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+
+.luz_green {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 50%;
+    opacity: 0;
+
+    transition: opacity 3s;
+}
+
+.btnbox {
+    
+    padding: 20px;
+    gap: 20px;
+}
+
+.active {
+    opacity: 1;
+}
